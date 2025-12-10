@@ -1,0 +1,141 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1765371122744,2556,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-1,text,true,,35604,506,1,1,https://demowebshop.tricentis.com/,2413,0,697
+1765371134171,376,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-1,text,true,,2017,1899,1,1,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,219,0,0
+1765371134171,219,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-1,text,true,,522,1084,1,1,https://demowebshop.tricentis.com/register,219,0,0
+1765371134393,154,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-1,text,true,,1495,815,1,1,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,154,0,0
+1765371134562,882,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-2,text,true,,35604,506,2,2,https://demowebshop.tricentis.com/,732,0,338
+1765371137555,359,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-1,text,true,,35290,729,2,2,https://demowebshop.tricentis.com/,353,0,0
+1765371122560,3291,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,72911,3134,2,2,null,2985,12064,697
+1765371137918,340,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-1,text,true,,35290,729,2,2,https://demowebshop.tricentis.com/,338,0,0
+1765371142705,279,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-1,text,true,,22814,734,2,2,https://demowebshop.tricentis.com/login,276,0,0
+1765371144293,359,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-2,text,true,,2017,1896,2,2,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,203,0,0
+1765371144293,203,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-2,text,true,,522,1081,2,2,https://demowebshop.tricentis.com/register,203,0,0
+1765371144498,154,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-2,text,true,,1495,815,2,2,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,154,0,0
+1765371146558,850,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-3,text,true,,35604,506,3,3,https://demowebshop.tricentis.com/,710,0,310
+1765371147656,335,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-2,text,true,,35290,729,3,3,https://demowebshop.tricentis.com/,333,0,0
+1765371134560,1576,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,72911,3131,3,3,null,1268,11856,338
+1765371147993,351,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-2,text,true,,35290,729,3,3,https://demowebshop.tricentis.com/,345,0,0
+1765371152792,293,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-2,text,true,,22814,734,3,3,https://demowebshop.tricentis.com/login,290,0,0
+1765371154522,287,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-1,text,true,,22999,865,3,3,https://demowebshop.tricentis.com/login,284,0,0
+1765371156257,342,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-3,text,true,,2017,1897,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,195,0,0
+1765371156257,195,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-3,text,true,,522,1082,3,3,https://demowebshop.tricentis.com/register,195,0,0
+1765371156454,145,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-3,text,true,,1495,815,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,145,0,0
+1765371158541,870,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-4,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,717,0,341
+1765371159603,328,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-3,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,324,0,0
+1765371146555,1520,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,72911,3132,4,4,null,1229,11858,310
+1765371159934,327,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-3,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,323,0,0
+1765371164625,294,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-2,text,true,,23001,866,4,4,https://demowebshop.tricentis.com/login,292,0,0
+1765371164708,277,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-3,text,true,,22814,734,4,4,https://demowebshop.tricentis.com/login,275,0,0
+1765371165212,659,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-1,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,656,0,0
+1765371168260,380,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-4,text,true,,2017,1900,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,218,0,0
+1765371168260,218,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-4,text,true,,522,1085,4,4,https://demowebshop.tricentis.com/register,218,0,0
+1765371168480,160,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-4,text,true,,1495,815,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,160,0,0
+1765371168875,534,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-1,text,true,,35981,1508,4,4,https://demowebshop.tricentis.com/,187,0,0
+1765371168875,187,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-1,text,true,,691,735,4,4,https://demowebshop.tricentis.com/logout,187,0,0
+1765371169065,344,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-1,text,true,,35290,773,4,4,https://demowebshop.tricentis.com/,339,0,0
+1765371137916,2099,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,144277,4580,4,4,null,1741,29396,0
+1765371171643,331,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-4,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,327,0,0
+1765371158538,1581,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,72911,3135,4,4,null,1262,11856,341
+1765371171977,350,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-4,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,347,0,0
+1765371170561,4367,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-5,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,4220,0,3335
+1765371175319,547,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-2,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,544,0,0
+1765371176521,281,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-3,text,true,,23002,867,4,4,https://demowebshop.tricentis.com/login,279,0,0
+1765371176774,291,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-4,text,true,,22814,734,4,4,https://demowebshop.tricentis.com/login,289,0,0
+1765371178873,529,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-2,text,true,,35981,1508,4,4,https://demowebshop.tricentis.com/,192,0,0
+1765371178873,192,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-2,text,true,,691,735,4,4,https://demowebshop.tricentis.com/logout,192,0,0
+1765371179067,335,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-2,text,true,,35290,773,4,4,https://demowebshop.tricentis.com/,331,0,0
+1765371147992,2014,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,144279,4581,4,4,null,1663,29399,0
+1765371182548,1264,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-6,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,1124,0,309
+1765371183777,359,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-5,text,true,,2017,1899,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,203,0,0
+1765371183777,204,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-5,text,true,,522,1084,4,4,https://demowebshop.tricentis.com/register,203,0,0
+1765371183982,154,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-5,text,true,,1495,815,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,154,0,0
+1765371187140,336,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-5,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,333,0,0
+1765371170552,5062,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,72911,3134,4,4,null,4756,11864,3335
+1765371187206,573,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-3,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,570,0,0
+1765371187480,655,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-5,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,652,0,0
+1765371188603,323,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-4,text,true,,22999,865,4,4,https://demowebshop.tricentis.com/login,321,0,0
+1765371190783,518,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-3,text,true,,35981,1508,4,4,https://demowebshop.tricentis.com/,185,0,0
+1765371190783,185,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-3,text,true,,691,735,4,4,https://demowebshop.tricentis.com/logout,185,0,0
+1765371190970,331,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-3,text,true,,35290,773,4,4,https://demowebshop.tricentis.com/,328,0,0
+1765371159933,1976,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-3,,true,,144280,4582,4,4,null,1632,29394,0
+1765371192582,266,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-5,text,true,,22814,734,3,3,https://demowebshop.tricentis.com/login,263,0,0
+1765371194544,999,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-7,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,850,0,319
+1765371192660,3078,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-6,text,true,,2017,1896,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,2932,0,0
+1765371192660,2932,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-6,text,true,,522,1081,4,4,https://demowebshop.tricentis.com/register,2932,0,0
+1765371195594,144,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-6,text,true,,1495,815,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,144,0,0
+1765371198741,350,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-6,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,348,0,0
+1765371182546,4692,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-6,,true,,72911,3131,4,4,null,4404,11855,309
+1765371199095,358,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-6,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,354,0,0
+1765371199329,557,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-4,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,555,0,0
+1765371202888,526,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-4,text,true,,35981,1508,4,4,https://demowebshop.tricentis.com/,189,0,0
+1765371202888,190,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-4,text,true,,691,735,4,4,https://demowebshop.tricentis.com/logout,189,0,0
+1765371203079,335,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-4,text,true,,35290,773,4,4,https://demowebshop.tricentis.com/,332,0,0
+1765371171975,2047,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-4,,true,,144277,4580,4,4,null,1701,29394,0
+1765371203900,284,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-6,text,true,,22814,734,3,3,https://demowebshop.tricentis.com/login,283,0,0
+1765371204390,364,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-7,text,true,,2017,1897,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,210,0,0
+1765371204390,210,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-7,text,true,,522,1082,3,3,https://demowebshop.tricentis.com/register,210,0,0
+1765371204601,153,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-7,text,true,,1495,815,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,153,0,0
+1765371204385,619,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-5,text,true,,23001,866,3,3,https://demowebshop.tricentis.com/login,617,0,0
+1765371206533,834,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-8,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,685,0,321
+1765371207758,319,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-7,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,318,0,0
+1765371194542,1682,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-7,,true,,72911,3132,4,4,null,1378,11854,319
+1765371208079,359,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-7,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,355,0,0
+1765371212885,280,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-7,text,true,,22814,734,4,4,https://demowebshop.tricentis.com/login,278,0,0
+1765371215407,579,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-5,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,578,0,0
+1765371215720,282,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-6,text,true,,23002,867,4,4,https://demowebshop.tricentis.com/login,280,0,0
+1765371216217,376,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-8,text,true,,2017,1900,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,222,0,0
+1765371216217,222,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-8,text,true,,522,1085,4,4,https://demowebshop.tricentis.com/register,222,0,0
+1765371216440,153,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-8,text,true,,1495,815,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,153,0,0
+1765371218551,835,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-9,text,true,,35604,506,5,5,https://demowebshop.tricentis.com/,690,0,315
+1765371218988,848,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-5,text,true,,35981,1508,5,5,https://demowebshop.tricentis.com/,511,0,0
+1765371218988,511,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-5,text,true,,691,735,5,5,https://demowebshop.tricentis.com/logout,511,0,0
+1765371219501,335,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-5,text,true,,35290,773,5,5,https://demowebshop.tricentis.com/,333,0,0
+1765371187479,2967,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-5,,true,,144279,4581,5,5,null,2621,29392,0
+1765371219597,352,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-8,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,351,0,0
+1765371206530,1562,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-8,,true,,72911,3135,4,4,null,1258,11857,321
+1765371219951,333,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-8,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,330,0,0
+1765371224703,281,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-7,text,true,,22999,865,4,4,https://demowebshop.tricentis.com/login,279,0,0
+1765371224732,280,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-8,text,true,,22814,734,4,4,https://demowebshop.tricentis.com/login,279,0,0
+1765371226404,547,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-6,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,544,0,0
+1765371228234,362,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-9,text,true,,2017,1899,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,212,0,0
+1765371228234,212,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-9,text,true,,522,1084,4,4,https://demowebshop.tricentis.com/register,212,0,0
+1765371228447,149,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-9,text,true,,1495,815,4,4,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,149,0,0
+1765371229953,695,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-6,text,true,,35981,1508,5,5,https://demowebshop.tricentis.com/,187,0,0
+1765371229953,187,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-6,text,true,,691,735,5,5,https://demowebshop.tricentis.com/logout,187,0,0
+1765371230142,506,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-6,text,true,,35290,773,5,5,https://demowebshop.tricentis.com/,503,0,0
+1765371199093,2166,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-6,,true,,144280,4582,5,5,null,1648,29391,0
+1765371230540,961,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-10,text,true,,35604,506,4,4,https://demowebshop.tricentis.com/,821,0,305
+1765371231599,338,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-9,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,336,0,0
+1765371218547,1535,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-9,,true,,72911,3134,4,4,null,1238,11856,315
+1765371231938,341,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-9,text,true,,35290,729,4,4,https://demowebshop.tricentis.com/,339,0,0
+1765371235385,1242,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-7,text,true,,27193,744,4,4,https://demowebshop.tricentis.com/search?q=laptop,1234,0,0
+1765371236547,324,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-8,text,true,,23001,866,4,4,https://demowebshop.tricentis.com/login,323,0,0
+1765371236726,270,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-9,text,true,,22814,734,4,4,https://demowebshop.tricentis.com/login,270,0,0
+1765371239630,517,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-7,text,true,,35981,1508,4,4,https://demowebshop.tricentis.com/,197,0,0
+1765371239630,197,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-7,text,true,,691,735,4,4,https://demowebshop.tricentis.com/logout,197,0,0
+1765371239828,319,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-7,text,true,,35290,773,4,4,https://demowebshop.tricentis.com/,318,0,0
+1765371208078,2679,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-7,,true,,144277,4580,4,4,null,2343,29393,0
+1765371240349,338,https://demowebshop.tricentis.com/register,200,OK,Thread Group 1-10,text,true,,2017,1896,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,195,0,0
+1765371240349,195,https://demowebshop.tricentis.com/register-0,302,Found,Thread Group 1-10,text,true,,522,1081,3,3,https://demowebshop.tricentis.com/register,195,0,0
+1765371240544,143,https://demowebshop.tricentis.com/register-1,200,OK,Thread Group 1-10,text,true,,1495,815,3,3,https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register,143,0,0
+1765371243690,383,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-10,text,true,,35290,729,3,3,https://demowebshop.tricentis.com/,380,0,0
+1765371230538,1682,register,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-10,,true,,72911,3131,3,3,null,1396,11855,305
+1765371244078,371,https://demowebshop.tricentis.com/,200,OK,Thread Group 1-10,text,true,,35290,729,3,3,https://demowebshop.tricentis.com/,368,0,0
+1765371247271,1174,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-8,text,true,,27193,744,3,3,https://demowebshop.tricentis.com/search?q=laptop,1172,0,0
+1765371248531,309,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-9,text,true,,23002,867,3,3,https://demowebshop.tricentis.com/login,308,0,0
+1765371248896,311,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-10,text,true,,22814,734,3,3,https://demowebshop.tricentis.com/login,310,0,0
+1765371251448,545,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-8,text,true,,35981,1508,3,3,https://demowebshop.tricentis.com/,205,0,0
+1765371251448,205,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-8,text,true,,691,735,3,3,https://demowebshop.tricentis.com/logout,205,0,0
+1765371251654,339,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-8,text,true,,35290,773,3,3,https://demowebshop.tricentis.com/,338,0,0
+1765371219950,2656,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-8,,true,,144279,4581,3,3,null,2309,29388,0
+1765371259241,578,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-9,text,true,,27193,744,2,2,https://demowebshop.tricentis.com/search?q=laptop,576,0,0
+1765371260743,334,https://demowebshop.tricentis.com/login,200,OK,Thread Group 1-10,text,true,,22999,865,2,2,https://demowebshop.tricentis.com/login,333,0,0
+1765371262825,521,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-9,text,true,,35981,1508,2,2,https://demowebshop.tricentis.com/,185,0,0
+1765371262825,185,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-9,text,true,,691,735,2,2,https://demowebshop.tricentis.com/logout,185,0,0
+1765371263011,335,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-9,text,true,,35290,773,2,2,https://demowebshop.tricentis.com/,333,0,0
+1765371231938,2019,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-9,,true,,144280,4582,2,2,null,1678,29389,0
+1765371271479,868,https://demowebshop.tricentis.com/search?q=laptop,200,OK,Thread Group 1-10,text,true,,27193,744,1,1,https://demowebshop.tricentis.com/search?q=laptop,867,0,0
+1765371275351,513,https://demowebshop.tricentis.com/logout,200,OK,Thread Group 1-10,text,true,,35981,1508,1,1,https://demowebshop.tricentis.com/,177,0,0
+1765371275351,177,https://demowebshop.tricentis.com/logout-0,302,Found,Thread Group 1-10,text,true,,691,735,1,1,https://demowebshop.tricentis.com/logout,177,0,0
+1765371275529,335,https://demowebshop.tricentis.com/logout-1,200,OK,Thread Group 1-10,text,true,,35290,773,1,1,https://demowebshop.tricentis.com/,332,0,0
+1765371244075,2397,login and add to cart,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-10,,true,,144277,4580,1,1,null,2055,29394,0

@@ -1,0 +1,734 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 4,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Dec-10-2025",
+    "RecordingDuration": 209453,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1765372710,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 121006,
+    "TotalBytesSent": 24575,
+    "TotalRequests": 31,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "octoperf.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "78.46.109.21",
+          "IncludeInScript": true,
+          "Name": "petstore.octoperf.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 4736,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 156,
+              "EventId": 265,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://petstore.octoperf.com/actions/Account.action?signoff="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 5342,
+              "URL": "https://petstore.octoperf.com/actions/Order.action?newOrderForm="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 4975,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 4975,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 245,
+              "HttpStatus": 200,
+              "Size": 4569,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 239,
+              "HttpStatus": 200,
+              "Size": 4569,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 4006,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 233,
+              "HttpStatus": 200,
+              "Size": 3828,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 226,
+              "HttpStatus": 200,
+              "Size": 4906,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 224,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://petstore.octoperf.com/actions/Account.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 157,
+              "EventId": 169,
+              "HttpStatus": 200,
+              "Size": 3940,
+              "URL": "https://petstore.octoperf.com/actions/Account.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 165,
+              "HttpStatus": 200,
+              "Size": 3856,
+              "URL": "https://petstore.octoperf.com/actions/Account.action;jsessionid=95AF3571AA77B8BB91CA206F8CBD5DB3?signonForm="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 157,
+              "EventId": 146,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "https://petstore.octoperf.com/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 144,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "https://petstore.octoperf.com/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 140,
+              "EventId": 142,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://petstore.octoperf.com/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 138,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "https://petstore.octoperf.com/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 136,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "https://petstore.octoperf.com/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 134,
+              "HttpStatus": 200,
+              "Size": 1660,
+              "URL": "https://petstore.octoperf.com/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 140,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "https://petstore.octoperf.com/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 157,
+              "EventId": 128,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "https://petstore.octoperf.com/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "https://petstore.octoperf.com/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 124,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "https://petstore.octoperf.com/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "https://petstore.octoperf.com/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "https://petstore.octoperf.com/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 140,
+              "EventId": 107,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://petstore.octoperf.com/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 140,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 16288,
+              "URL": "https://petstore.octoperf.com/images/logo-topbar.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 63,
+              "HttpStatus": 200,
+              "Size": 5352,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 27,
+              "HttpStatus": 404,
+              "Size": 762,
+              "URL": "https://petstore.octoperf.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 140,
+              "EventId": 23,
+              "HttpStatus": 200,
+              "Size": 5973,
+              "URL": "https://petstore.octoperf.com/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 16,
+              "HttpStatus": 200,
+              "Size": 1156,
+              "URL": "https://petstore.octoperf.com/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.221.195",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 193,
+              "HttpStatus": 200,
+              "Size": 820,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:XDU4A2FUZVWQPSM53htuEZQEC60vU0kFrjMFaoeRlmA&cup2hreq=253951f9449bb64a70482b829087028283ab2baea73cd2d2eee0d953be57ca0e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 263,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:WI_nRDj0fSJI5ir6dNQX7qSJfjdbjLAxOu4vyKC1aew&cup2hreq=6706c6f4bb192ebdeb2f74248c4078e09e68146aeb66f77f5b7b2de37d77478a"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.206.42",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 217,
+              "HttpStatus": 200,
+              "Size": 3493,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTEzLjAuNTY3Mi45MxopCAUQARobCg0IBRAGGAEiAzAwMTABEIb2HRoCGASllC4GIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARD1nBMaAhgEosHz3yIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ4aYTGgIYBKEbNsYiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgEWPw6oyIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ3z4aAhgE7Fv0CSIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQ29gHGgIYBMXtcpoiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgEadCIlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGATlYphQIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCSGxoCGARwBwthIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDQ3AIaAhgEBandZyIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQl5UTGgIYBH3QFDMiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEPT6BxoCGARN5b_eIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARDfORoCGARxb0NnIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.67.42",
+          "IncludeInScript": false,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 162,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.205.138",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 110,
+              "EventId": 263,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCd-HvMqPGywPEgUNAo_7aBJWCdhtnUT1tSxHEgUNjGfrnhIFDV7tmBkSBQ2-uCgXEgUN8VGXWBIFDbHK0L0SBQ03ZM-bEgUNvBJthxIFDQVMdNISBQ0Kfh-4EgUNcn0BfBIFDURIH98=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 253,
+              "HttpStatus": 200,
+              "Size": 61,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCd-HvMqPGywPEgUNAo_7aBIXCe6NhrvJT3fBEgUNcrvW3xIFDSSNzbc=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 52,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCd-HvMqPGywPEgUNAo_7aBIQCSNn7-Mac_J4EgUNcrvW3w==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 97,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCd-HvMqPGywPEgUNAo_7aBIXCTwYvFQlQx3wEgUN541ADhIFDc5BTHo=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 152,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCd-HvMqPGywPEgUNAo_7aA==?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.207.67",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 214,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 218,
+              "EventId": 200,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 406,
+              "EventId": 197,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 179,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 703,
+              "EventId": 29,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=113"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.200.84",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "dns.google",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "8.8.4.4",
+          "IncludeInScript": false,
+          "Name": "dns.google",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 32,
+              "EventId": 184,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABDmNsaWVudHNlcnZpY2VzCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAARgAMAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 47,
+              "EventId": 156,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 154,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 15,
+              "EventId": 101,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAEEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABCHBldHN0b3JlCG9jdG9wZXJmA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 61,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 47,
+              "EventId": 57,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 62,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 63,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 2
+}

@@ -1,0 +1,125 @@
+[
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1765373290189
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Enter the Store",
+                "infFile": "t2.inf",
+                "time": 1765373290883
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Link: Sign In",
+                "infFile": "t3.inf",
+                "time": 1765373291214
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Form: Account.action",
+                "infFile": "t4.inf",
+                "time": 1765373291619
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: Account.action_2",
+                "infFile": "t5.inf",
+                "time": 1765373292150
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "enter the store",
+                "rawStartTime": 1765373290211,
+                "rawEndTime": 1765373290898,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02711939811706543
+            },
+            {
+                "transactionName": "click sign in",
+                "rawStartTime": 1765373290930,
+                "rawEndTime": 1765373291226,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01439666748046875
+            },
+            {
+                "transactionName": "enter username and password",
+                "rawStartTime": 1765373291258,
+                "rawEndTime": 1765373291633,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007770061492919922
+            },
+            {
+                "transactionName": "enter username and password",
+                "rawStartTime": 1765373291649,
+                "rawEndTime": 1765373292164,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006966114044189453
+            }
+        ]
+    },
+    {
+        "actionName": "buyMultipleItems",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t7.inf",
+                "time": 1765373292449
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: {prodid}",
+                "infFile": "t9.inf",
+                "time": 1765373292731
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t10.inf",
+                "time": 1765373292983
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Form: Cart.action",
+                "infFile": "t11.inf",
+                "time": 1765373293347
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Cart.action_2",
+                "infFile": "t12.inf",
+                "time": 1765373293674
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "select category",
+                "rawStartTime": 1765373292195,
+                "rawEndTime": 1765373292477,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014473915100097657
+            },
+            {
+                "transactionName": "select prodid",
+                "rawStartTime": 1765373292508,
+                "rawEndTime": 1765373292742,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012895345687866211
+            },
+            {
+                "transactionName": "select items",
+                "rawStartTime": 1765373292774,
+                "rawEndTime": 1765373293718,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02571845054626465
+            }
+        ]
+    }
+]

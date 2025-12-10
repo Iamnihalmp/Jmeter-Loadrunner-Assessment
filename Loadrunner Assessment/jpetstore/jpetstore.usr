@@ -1,0 +1,84 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=jpetstore.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2023
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2023.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2023.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Login=Login.c
+buyMultipleItems=buyMultipleItems.c
+addToCart=addToCart.c
+logout=logout.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Login=1
+buyMultipleItems=1
+addToCart=1
+logout=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Login=1
+buyMultipleItems=1
+addToCart=1
+logout=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Login=1
+buyMultipleItems=1
+addToCart=1
+logout=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Login=cci
+buyMultipleItems=cci
+addToCart=cci
+logout=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="enter the store__*delimiter*__click sign in__*delimiter*__enter username and password__*delimiter*__enter username and password__*delimiter*__select category__*delimiter*__select prodid__*delimiter*__select items__*delimiter*__chcekout__*delimiter*__logout"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"enter the store"=
+"click sign in"=
+"enter username and password"=
+"select category"=
+"select prodid"=
+"select items"=
+chcekout=
+logout=

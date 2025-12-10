@@ -1,0 +1,24 @@
+Virtual User Script started at: 10-12-2025 19:12:05
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Desktop\Loadrunner files\Loadrunner Assessment\jpetstore\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Login.
+Login.c(22): Notify: Transaction "enter the store" started.
+Login.c(24): web_link("Enter the Store") started  	[MsgId: MMSG-26355]
+Login.c(24): Error -27985: There is no context for HTML-based functions. A previous function may not have used "Mode=HTML" or downloaded only non-HTML page(s), or the context has been reset (e.g., due to a GUI-based function)  	[MsgId: MERR-27985]
+Login.c(24): web_link("Enter the Store") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Login.c(24): Notify: Transaction "enter the store" ended with a "Fail" status (Duration: 4.5052).
+Login.c(24): Notify: Transaction "enter the store" has 1 error message(s).
+Login.c(24): Notify: The 1st error message associated with transaction "enter the store" is "Error -27985: There is no context for HTML-based functions. A previous function may not have used "Mode=HTML" or downloaded only non-HTML page(s), or the context has been reset (e.g., due to a GUI-based function)"
+Ending action Login.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,16 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: petstore.octoperf.com
+Total=2
+FileName1=t1.html
+FileName2=t1_1_jpetstore.css
+RequestHeaderFile=t1_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1765373290037
+RawStepName=petstore.octoperf.com
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1765373288852
+URL1=https://petstore.octoperf.com/
+URL2=https://petstore.octoperf.com/css/jpetstore.css

@@ -1,0 +1,10 @@
+HTTP/2.0 200
+Status: 200
+date: Wed, 10 Dec 2025 11:23:47 GMT
+content-type: text/html
+content-length: 1156
+accept-ranges: bytes
+etag: W/"1156-1670877034000"
+last-modified: Mon, 12 Dec 2022 20:30:34 GMT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

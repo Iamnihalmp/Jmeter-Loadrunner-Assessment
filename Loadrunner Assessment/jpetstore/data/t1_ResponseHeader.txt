@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+Date: Wed, 10 Dec 2025 10:38:59 GMT
+Content-Type: text/html
+Content-Length: 1156
+Connection: keep-alive
+Accept-Ranges: bytes
+ETag: W/"1156-1670877034000"
+Last-Modified: Mon, 12 Dec 2022 20:30:34 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
